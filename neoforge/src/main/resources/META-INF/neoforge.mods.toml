@@ -1,0 +1,29 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+#issueTrackerURL = ""
+license = "MIT, CC0-1.0"
+
+[[mods]]
+modId = "take_back_the_night"
+version = "${version}"
+displayName = "Take Back the Night"
+authors = "N0t_UN_Owen/NotUnaNancyOwen"
+description = '''
+Adds a Herobrine bossfight!
+'''
+logoFile = "assets/take_back_the_night/icon.png"
+
+[[dependencies.take_back_the_night]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.take_back_the_night]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "take_back_the_night",
+  "version": "${version}",
+  "name": "Take Back the Night",
+  "description": "Adds a Herobrine bossfight!",
+  "authors": [
+    "N0t_UN_Owen/NotUnaNancyOwen"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/take-back-the-night",
+    "sources": "https://github.com/Unknowneth/Take-Back-the-Night"
+  },
+  "license": "MIT, CC0-1.0",
+  "icon": "assets/take_back_the_night/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.notunanancyowen.herobrine.fabric.TakeBackTheNightFabric"
+    ],
+    "client": [
+      "com.notunanancyowen.herobrine.fabric.client.TakeBackTheNightFabricClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
